@@ -1,0 +1,2 @@
+In this code together with Miriam Ivaldi we have to create a Q-learning algorithm that competes against tic-tac-toe. The Q table is not initialized at the start but from time to time when new combinations are generated.
+The code has a lot of comments so it should be self-explanatory
