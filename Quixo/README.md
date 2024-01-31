@@ -7,10 +7,12 @@ We found different articles about these topics, the most useful was probably “
 Here we discovered some interesting things. For example there is an interesting way to represent the states that minimizes the memory occupied for each one. It also uses shift operations to perform the movements on the board (that produce the changes of the state) which are faster than functions that have to cycle through a matrix representation of the state.
 
 This representation only requires 8 bytes: 25 bits for each symbol (O or X) and 7+7 are unused, as it is possible to observe in the image below.
+![Screenshot](./imgs/1.jpeg)
 
 
 B and C in the image below are other 8 bytes that the authors used to perform the move.
-
+![Screenshot](./imgs/2.jpeg)
+![Screenshot](./imgs/3.jpeg)
 
 
 From the image above it is possible to observe how the moves are executed.
